@@ -87,9 +87,12 @@ O Arduino compara os dois valores e acende o LED correspondente ao sensor que es
 
 ```
 /
-├── README.md          # Este arquivo
-├── LICENSE            # Licença MIT
-└── .gitignore         # Arquivos ignorados pelo Git
+├── src/
+│   └── ldr_led_controller/
+│       └── ldr_led_controller.ino
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ---
